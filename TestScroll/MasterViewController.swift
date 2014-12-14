@@ -12,8 +12,7 @@ import CoreData
 class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate {
 
     var managedObjectContext: NSManagedObjectContext? = nil
-
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -25,6 +24,8 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
+        
+        let c = HCCar()
     }
 
     override func didReceiveMemoryWarning() {
