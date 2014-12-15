@@ -9,7 +9,6 @@
 SDK := iphonesimulator
 J2OBJC_HOME := ../../j2objc
 SRC_DIR := Java/main
-CLASSPATH := ../../j2objc/lib/j2objc_guava.jar:../../jar/junit-4.11.jar:../../jar/hamcrest-core-1.3.jar:../../jar/hamcrest-library-1.3.jar
 
 # Find all files in SRC_DIR, but remove SRC_DIR from the paths
 SRC_FILES := $(subst $(SRC_DIR)/, , $(shell find "$(SRC_DIR)" -name '*.java' -type f))
@@ -30,7 +29,7 @@ ifeq ($(BUILD_CONFIGURATION), Debug)
 endif
 
 BUILD_DIR := $(DERIVED_FILES_DIR)
-J2OBJC_FLAGS += --no-package-directories -sourcepath $(SRC_DIR):$(TST_DIR) --prefix harrycheung=HC -use-arc -classpath $(CLASSPATH)
+J2OBJC_FLAGS += --no-package-directories -sourcepath $(SRC_DIR):$(TST_DIR) --prefix harrycheung=HC -use-arc
 # Flatten the list of Objective-C files as that is how Xcode will expect them
 OBJC_FILES := $(addprefix $(BUILD_DIR)/, $(notdir $(SRC_FILES:.java=.m)))
 vpath %.java $(SRC_FOLDERS)
