@@ -10,15 +10,12 @@
 		4AAF512A1A3A83E4006AF549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF51291A3A83E4006AF549 /* AppDelegate.swift */; };
 		4AAF512D1A3A83E4006AF549 /* TestScroll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF512B1A3A83E4006AF549 /* TestScroll.xcdatamodeld */; };
 		4AAF512F1A3A83E4006AF549 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF512E1A3A83E4006AF549 /* MasterViewController.swift */; };
-		4AAF51341A3A83E4006AF549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAF51321A3A83E4006AF549 /* Main.storyboard */; };
-		4AAF51361A3A83E4006AF549 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAF51351A3A83E4006AF549 /* Images.xcassets */; };
-		4AAF51391A3A83E4006AF549 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AAF51371A3A83E4006AF549 /* LaunchScreen.xib */; };
-		4AAF51451A3A83E4006AF549 /* TestScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF51441A3A83E4006AF549 /* TestScrollTests.swift */; };
 		4AAF51541A3A86B1006AF549 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAF51531A3A86B1006AF549 /* Security.framework */; };
 		4AAF51561A3A86B7006AF549 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAF51551A3A86B7006AF549 /* libicucore.dylib */; };
 		4AB25CF31A3E586B000F8B81 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB25CF21A3E586B000F8B81 /* libz.dylib */; };
 		4AB25CF51A3E5920000F8B81 /* Car.java in Sources */ = {isa = PBXBuildFile; fileRef = 4AB25CF41A3E5920000F8B81 /* Car.java */; };
 		93D228021A40BFFA0067F15A /* j2objc-generated in Resources */ = {isa = PBXBuildFile; fileRef = 93D228011A40BFFA0067F15A /* j2objc-generated */; };
+		93D228041A40C3A30067F15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D228031A40C3A30067F15A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -51,18 +48,14 @@
 		4AAF51291A3A83E4006AF549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AAF512C1A3A83E4006AF549 /* TestScroll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestScroll.xcdatamodel; sourceTree = "<group>"; };
 		4AAF512E1A3A83E4006AF549 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		4AAF51331A3A83E4006AF549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AAF51351A3A83E4006AF549 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4AAF51381A3A83E4006AF549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4AAF513E1A3A83E4006AF549 /* TestScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AAF51431A3A83E4006AF549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AAF51441A3A83E4006AF549 /* TestScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollTests.swift; sourceTree = "<group>"; };
 		4AAF51531A3A86B1006AF549 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4AAF51551A3A86B7006AF549 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		4AAF51BE1A3AAF39006AF549 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		4AB25CF21A3E586B000F8B81 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		4AB25CF41A3E5920000F8B81 /* Car.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Car.java; path = Java/main/harrycheung/Car.java; sourceTree = "<group>"; };
 		93D228011A40BFFA0067F15A /* j2objc-generated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "j2objc-generated"; sourceTree = "<group>"; };
+		93D228031A40C3A30067F15A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +89,6 @@
 				4AAF51531A3A86B1006AF549 /* Security.framework */,
 				93D228011A40BFFA0067F15A /* j2objc-generated */,
 				4AAF51261A3A83E4006AF549 /* TestScroll */,
-				4AAF51411A3A83E4006AF549 /* TestScrollTests */,
 				4AAF51251A3A83E4006AF549 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,39 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				4AAF51291A3A83E4006AF549 /* AppDelegate.swift */,
+				4AAF51281A3A83E4006AF549 /* Info.plist */,
+				93D228031A40C3A30067F15A /* Main.storyboard */,
 				4AAF512E1A3A83E4006AF549 /* MasterViewController.swift */,
-				4AAF51321A3A83E4006AF549 /* Main.storyboard */,
-				4AAF51351A3A83E4006AF549 /* Images.xcassets */,
-				4AAF51371A3A83E4006AF549 /* LaunchScreen.xib */,
 				4AAF512B1A3A83E4006AF549 /* TestScroll.xcdatamodeld */,
-				4AAF51271A3A83E4006AF549 /* Supporting Files */,
 			);
 			path = TestScroll;
-			sourceTree = "<group>";
-		};
-		4AAF51271A3A83E4006AF549 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4AAF51281A3A83E4006AF549 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4AAF51411A3A83E4006AF549 /* TestScrollTests */ = {
-			isa = PBXGroup;
-			children = (
-				4AAF51441A3A83E4006AF549 /* TestScrollTests.swift */,
-				4AAF51421A3A83E4006AF549 /* Supporting Files */,
-			);
-			path = TestScrollTests;
-			sourceTree = "<group>";
-		};
-		4AAF51421A3A83E4006AF549 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4AAF51431A3A83E4006AF549 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAF51341A3A83E4006AF549 /* Main.storyboard in Resources */,
-				4AAF51391A3A83E4006AF549 /* LaunchScreen.xib in Resources */,
 				93D228021A40BFFA0067F15A /* j2objc-generated in Resources */,
-				4AAF51361A3A83E4006AF549 /* Images.xcassets in Resources */,
+				93D228041A40C3A30067F15A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +225,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAF51451A3A83E4006AF549 /* TestScrollTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,25 +237,6 @@
 			targetProxy = 4AAF513F1A3A83E4006AF549 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4AAF51321A3A83E4006AF549 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AAF51331A3A83E4006AF549 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4AAF51371A3A83E4006AF549 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AAF51381A3A83E4006AF549 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4AAF51461A3A83E4006AF549 /* Debug */ = {
