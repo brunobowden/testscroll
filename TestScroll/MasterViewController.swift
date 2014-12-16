@@ -53,12 +53,12 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     // MARK: - Segues
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showDetail" {
-            if let indexPath = self.tableView.indexPathForSelectedRow() {
-            let object = self.fetchedResultsController.objectAtIndexPath(indexPath) as NSManagedObject
-            (segue.destinationViewController as DetailViewController).detailItem = object
-            }
-        }
+//        if segue.identifier == "showDetail" {
+//            if let indexPath = self.tableView.indexPathForSelectedRow() {
+//            let object = self.fetchedResultsController.objectAtIndexPath(indexPath) as NSManagedObject
+//            (segue.destinationViewController as DetailViewController).detailItem = object
+//            }
+//        }
     }
 
     // MARK: - Table View
