@@ -6,8 +6,10 @@
 # Copyright (c) 2014 Cohesive Front. All rights reserved.
 #
 
-SDK := iphonesimulator
 J2OBJC_HOME := ../../j2objc
+#J2OBJC_HOME := ../j2objc-versions/j2objc-0.9.5
+
+SDK := iphonesimulator
 SRC_DIR := Java/main
 
 # Find all files in SRC_DIR, but remove SRC_DIR from the paths
@@ -24,9 +26,14 @@ ifndef DERIVED_FILES_DIR
 		| sed -E "s/[^=]+=[[:space:]]+(.+)/\1/")
 endif
 
-ifeq ($(BUILD_CONFIGURATION), Debug)
-	J2OBJC_FLAGS += -g
-endif
+# prints out "Debug-iphonesimulator" directory when "Debug-iphoneos" is
+# where the j2objc output should be edited
+$(info DERIVED_FILES_DIR = $(DERIVED_FILES_DIR))
+
+# don't use java source, better to disable and look at generated objc files
+#ifeq ($(BUILD_CONFIGURATION), Debug)
+#	J2OBJC_FLAGS += -g
+#endif
 
 BUILD_DIR := $(DERIVED_FILES_DIR)
 J2OBJC_FLAGS += --no-package-directories -sourcepath $(SRC_DIR):$(TST_DIR) --prefix harrycheung=HC -use-arc
@@ -60,3 +67,4 @@ $(BUILD_DIR):
 
 clean:
 	@rm -rf "$(BUILD_DIR)"
+
