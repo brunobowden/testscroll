@@ -24,8 +24,6 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
-        
-        let c = HCCar()
     }
 
     override func didReceiveMemoryWarning() {
