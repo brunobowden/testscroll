@@ -1,9 +1,10 @@
 package harrycheung;
 
-import java.lang.Math.*;
+import java.lang.Long;
 
 public final class Car {
     public Car() {
-        Math.cos(40);
+        Long comment_out_assignment_to_avoid_crash;
+        comment_out_assignment_to_avoid_crash = Long.MAX_VALUE;
     }
 }
