@@ -11,7 +11,7 @@
 - (instancetype)init {
   if (self = [super init]) {
     JavaLangLong *comment_out_assignment_to_avoid_crash;
-    comment_out_assignment_to_avoid_crash = [JavaLangLong valueOfWithLong:JavaLangLong_MAX_VALUE];
+    comment_out_assignment_to_avoid_crash = JavaLangLong_valueOfWithLong_(JavaLangLong_MAX_VALUE);
   }
   return self;
 }

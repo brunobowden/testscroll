@@ -19,6 +19,7 @@
 		4AAF51561A3A86B7006AF549 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAF51551A3A86B7006AF549 /* libicucore.dylib */; };
 		4AB25CF31A3E586B000F8B81 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB25CF21A3E586B000F8B81 /* libz.dylib */; };
 		4AB25CF51A3E5920000F8B81 /* Car.java in Sources */ = {isa = PBXBuildFile; fileRef = 4AB25CF41A3E5920000F8B81 /* Car.java */; };
+		93D228021A40BFFA0067F15A /* j2objc-generated in Resources */ = {isa = PBXBuildFile; fileRef = 93D228011A40BFFA0067F15A /* j2objc-generated */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -63,6 +64,7 @@
 		4AAF51BE1A3AAF39006AF549 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		4AB25CF21A3E586B000F8B81 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		4AB25CF41A3E5920000F8B81 /* Car.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Car.java; path = Java/main/harrycheung/Car.java; sourceTree = "<group>"; };
+		93D228011A40BFFA0067F15A /* j2objc-generated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "j2objc-generated"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				4AB25CF21A3E586B000F8B81 /* libz.dylib */,
 				4AAF51551A3A86B7006AF549 /* libicucore.dylib */,
 				4AAF51531A3A86B1006AF549 /* Security.framework */,
+				93D228011A40BFFA0067F15A /* j2objc-generated */,
 				4AAF51261A3A83E4006AF549 /* TestScroll */,
 				4AAF51411A3A83E4006AF549 /* TestScrollTests */,
 				4AAF51251A3A83E4006AF549 /* Products */,
@@ -232,6 +235,7 @@
 			files = (
 				4AAF51341A3A83E4006AF549 /* Main.storyboard in Resources */,
 				4AAF51391A3A83E4006AF549 /* LaunchScreen.xib in Resources */,
+				93D228021A40BFFA0067F15A /* j2objc-generated in Resources */,
 				4AAF51361A3A83E4006AF549 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
